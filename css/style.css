@@ -11,8 +11,22 @@
   }
 }
 
+html,
+body {
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+
 html {
   font-size: 150%;
+}
+
+@media (max-width: 400px) {
+  html {
+    font-size: 120%;
+  }
 }
 
 body {
@@ -26,12 +40,6 @@ h1 {
 
 h3 {
   height: 3rem;
-}
-
-@media (max-width: 991px) {
-  .home {
-    flex-direction: column-reverse;
-  }
 }
 
 .home__name {

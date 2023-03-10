@@ -52,9 +52,11 @@
 
     <!-- Hero -->
     <section id="home" class="container">
-      <div class="row min-vh-100 home pt-3">
-        <div class="col-lg-6 d-flex flex-column justify-content-top home__text">
-          <h1 class="home__heading mt-3" data-aos="fade-up">
+      <div class="row min-vh-100 home d-flex justify-content-start">
+        <div
+          class="col-lg-6 d-flex flex-column justify-content-center home__text order-1"
+        >
+          <h1 class="home__heading" data-aos="fade-up">
             Hello, My name's <span class="home__name">Nigel</span> and I'm a
             frontend web developer based in Poznan.
           </h1>
@@ -72,10 +74,13 @@
             </a>
           </div>
         </div>
-        <div class="col-lg-6 d-flex align-self-center" data-aos="fade-up-left">
+        <div
+          class="col-lg-6 d-flex align-self-center order-lg-1"
+          data-aos="fade-up-left"
+        >
           <img
             src="https://images.unsplash.com/photo-1524666643752-b381eb00effb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1471&q=80"
-            alt=""
+            alt="code image"
             class="img-fluid"
           />
         </div>
@@ -84,8 +89,8 @@
 
     <!-- About -->
     <section id="about" class="about">
-      <div class="container py-5">
-        <div class="row py-5">
+      <div class="container">
+        <div class="row min-vh-100 py-5">
           <div class="col-lg-5 pb-5 pb-lg-0" data-aos="fade-up-right">
             <img
               src="https://images.unsplash.com/photo-1586716402203-79219bede43c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fHBvdHJhaXR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
@@ -161,7 +166,7 @@
     <!-- Contact -->
     <section class="pt-2" id="contact">
       <div class="container">
-        <div class="row">
+        <div class="row min-vh-100 py-5">
           <div class="col-lg-7 order-2 order-lg-1">
             <div class="py-3">
               <h2 class="section__title" data-aos="fade-up" data-aos-delay="50">
