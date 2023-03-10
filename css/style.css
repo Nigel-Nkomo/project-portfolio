@@ -34,6 +34,13 @@ body {
 }
 
 /* Home  */
+
+@media (min-width: 991px) {
+  .home {
+    margin-top: 3rem;
+  }
+}
+
 h1 {
   font-family: "Tilt Neon", sans-serif;
 }
